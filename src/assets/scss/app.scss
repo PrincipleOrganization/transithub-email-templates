@@ -10,10 +10,21 @@
   color: $primary-color;
 }
 
+hr {
+  border-top: .5px solid $medium-gray;
+  opacity: .1;
+  width: 78%;
+  margin-bottom: 15px;
+}
+
+#down-line {
+  width: 45%;
+}
+
 #main-title {
   font-size: 24px;
-  padding: 30px 30px 20px 30px;
-  border-bottom: 1px solid $medium-gray;
+  padding: 60px 30px 10px 30px;
+  //border-bottom: 1px solid $medium-gray;
   width: 80%;
   margin: 0 5% 20px;
   color: $dark-gray;
@@ -21,7 +32,7 @@
 }
 
 #main-btn {
-  padding: 15px 50px;
+  padding: 12px 30px;
   background-color: $primary-color;
   color: $white;
   border-radius: 5px;
@@ -44,6 +55,10 @@
 
 .text {
   color: $dark-gray;
+
+  &.subtext {
+    margin-top: 20px;
+  }
 }
 
 .subtitle {
